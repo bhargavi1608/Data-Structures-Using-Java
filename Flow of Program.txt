@@ -1,0 +1,53 @@
+Flow Chart
+
+1. Start/Stop - Oval
+2. Input/Output - Parallelogram
+3. Processing - Rectangle
+4. Condition - Diamond
+5. Flow Direction - Arrow
+
+Pseudo code
+Rough code
+Check whether a num is prime or not
+
+start
+input num
+c=2
+while c<num:
+	if num%c==0:
+		output not prime
+		exit
+	c=c+1
+end while
+output is prime
+exit
+
+
+check i salary>10000 if it add 2000 if not add 1000 to current salary
+
+start
+input salary
+if salary>10000:
+	salary=salary+2000
+else :
+	salary=salary+1000
+output salary
+exit
+
+
+Optimised pseudocode for prime
+
+start
+input n
+if n<=1:
+	print("neither prime nor composite")
+c=2
+while c*c<=n:
+	if n%c==0:
+		output "not prime"
+		exit
+	c+=1
+end while
+output "prime"
+exit
+
