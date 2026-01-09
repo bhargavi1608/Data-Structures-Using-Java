@@ -1,0 +1,47 @@
+Types of Languages
+1) Procedural 
+		Specifies the series of well-structired steps and procedures to compose a program
+		Contains a systematic order of statements,functions and commands to complete a task.
+	
+2) Functional
+		Writing a program only in pure functions
+		used in situations where we have to perform lots of different on the same set of data, like ML.
+		
+3) Object Oriented
+		Revolves around objects
+		code+Data = object
+		Developed to make it easier to develop,debug,reuse, and maintain software.
+
+
+
+Static VS Dynamic Languages
+
+Static
+	Perform type checking at compile time
+	Errors will show at compile time
+	Declare datatypes before you use it
+	More control
+
+Dynamic
+	Perform type checking at runtime
+	Error might not show till the program is run
+	No need to declare datatype of variables
+	Saves time in writing code but might give error at runtime
+	
+
+Two types of memeory
+1. Stack Memory
+2. Heap Memory
+
+a=10;
+a - Reference variable
+10 - object
+a is stored in stack
+10 is stored in Heap
+a points towards object
+stack stores reference variable and Heap stores objects
+
+
+a=10
+a=37
+Garbage collector will collect 10 as it has no reference variable now

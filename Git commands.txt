@@ -1,0 +1,58 @@
+Java VS C++;
+Java is Open Source not C++
+
+How do use leecode efficiently
+
+1) Do no spend more than 40 min
+
+  see hints and discussion even if you not able to solve see solution
+
+2) first solve with brute force than optimise it.
+
+3) Try to see which is type of problem is solved by using which pattern
+
+
+4) Daily spend 3 hours a day
+5) In rest of time do projects
+
+
+Git and GitHub
+
+-> to initialise the repository type git init in cmd of your project directory
+
+-> to create file (type nul > file.txt)
+
+-> to add file to git type git add . or (git add file.txt)
+
+-> to commit with msg type git commit -m "message"
+
+-> to get status type git status
+
+-> to delete file del file.txt
+
+-> to restore git reset (copy the hashcode)
+
+
+
+Steps to push project in github
+
+1) git init
+2) git remote add origin (github repo link).git
+3) git add .
+4) git commit -m "Initial commit"
+5) git branch -m main
+
+
+
+git push origin main
+
+// to create new branch
+git branch branch_name
+
+to merge the new_branch name with name
+
+git merge branch_name
+
+
+
+
