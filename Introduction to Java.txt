@@ -1,0 +1,71 @@
+How Java code executes
+
+1) The file is saved as .java file (human readable)
+2) Compiler compile the entire file into byte code that has .class file 
+3) Interpreter will check line by line
+4) It will convert into machine language (1,0)
+
+.java file is source code
+- This code will not directly run on a system
+- we need JVM to run this
+- Reason why Java is platform Independent
+
+
+PLATFORM INDEPENDENCE
+
+- byte code can run in all operating Systems
+- We need to convert source code to machine code so computer can understand
+- Compiler helps in doing this by turning it into executable code
+- This execuatble code is a set of instructions for the computer
+- After compiling c/c++ code we get .exe file which is platform dependent
+- In java we get byte code, JVM converts this to machine code
+- Java is platform-independent but JVM is platform dependent.
+
+
+1. JDK(Java Development Kit) JRE + Development Tools
+	- prodives an environment to develop and run the Java program
+	- It is a package that includes
+		1. development tools 
+		2. JRE - to execute your program
+		3. a compiler - javac
+		4. archiver - jar
+		5. docs generator - javadoc
+		6. Interpreter/loader
+
+2. JRE (Java Runtime Environment)
+	- It is an installation package that provides environment to only the run the program
+	- It consists of:
+		1. Development technologies
+		2. User Interface toolkit
+		3. Integration libraries
+		4. Base libraries
+		5. JVM
+	- After we get the .class file, the next things happen at runtime:
+		1. class loader loads all the classes needed to execute the program
+		2. JVM sends code to Byte code verifier to check the format of code
+		
+3. JVM (Java Virtual Machine)
+	-Loading
+		- reads .class file and generate binary data
+		- an object of this class is created in heap
+	-Linking
+		- JVM verifies the .class file
+		- allocate memory for class variables and default values
+		- replace symbolic references from the type with direct references
+	-Initialization
+		- all static variables are assigned with their values defined in the code and static block
+	JVM contains the stack and heap memory allocation
+    -Interpreter
+		- Line by line execution
+		- when one method is called many times, it will interpret again and again
+	
+4. JIT (Just In Time)
+	- those methods that are repeated, JIT provides direct machine code so re-interpretation is not required,
+	- makes execution faster
+	-Garbage collector
+	
+Java Source code --> JDK --> Bytecode --> JVM --> JRE
+
+
+for JVM JRE provides all the help required for it
+

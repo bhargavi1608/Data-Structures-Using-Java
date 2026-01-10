@@ -1,0 +1,163 @@
+// First Java Program
+
+public class Main{
+	public static void main(String args[]){
+		System.out.println("Hello World");
+	}
+}
+
+---
+
+## 🔹 Conditional Statements in Java
+
+Conditional statements help Java **make decisions** based on conditions.
+
+### 1️⃣ `if` Statement
+
+Executes code only if the condition is true.
+
+
+int age = 18;
+
+if (age >= 18) {
+    System.out.println("Eligible to vote");
+}
+
+
+`if-else` Statement
+
+Chooses between two blocks.
+
+
+int num = 5;
+
+if (num % 2 == 0) {
+    System.out.println("Even number");
+} else {
+    System.out.println("Odd number");
+}
+
+
+`if-else-if
+
+Used when there are multiple conditions.
+
+
+int marks = 85;
+
+if (marks >= 90) {
+    System.out.println("Grade A");
+} else if (marks >= 75) {
+    System.out.println("Grade B");
+} else {
+    System.out.println("Grade C");
+}
+
+
+`switch` Statement
+
+Best when checking one variable against many values.
+
+
+int day = 3;
+
+switch (day) {
+    case 1: System.out.println("Monday"); break;
+    case 2: System.out.println("Tuesday"); break;
+    case 3: System.out.println("Wednesday"); break;
+    default: System.out.println("Invalid day");
+}
+
+
+
+
+ Looping Statements in Java
+
+Loops are used to repeat a block of code.
+
+
+for Loop
+
+Used when the **number of iterations is known**.
+
+for (int i = 1; i <= 5; i++) {
+    System.out.println(i);
+}
+
+
+📌 Output: `1 2 3 4 5`
+
+
+
+`while` Loop
+
+Condition is checked before execution.
+
+
+int i = 1;
+
+while (i <= 5) {
+    System.out.println(i);
+    i++;
+}
+
+ `do-while` Loop
+
+Executes at least once, even if condition is false.
+
+
+int i = 1;
+
+do {
+    System.out.println(i);
+    i++;
+} while (i <= 5);
+
+
+
+
+Enhanced `for` Loop (for-each)
+
+Used for **arrays and collections**.
+
+
+int[] arr = {10, 20, 30};
+
+for (int num : arr) {
+    System.out.println(num);
+}
+
+
+ 🔹 Loop Control Statements
+
+🔸 `break`
+
+Stops the loop immediately.
+
+
+for (int i = 1; i <= 5; i++) {
+    if (i == 3) break;
+    System.out.println(i);
+}
+
+
+ 🔸 `continue`
+
+Skips the current iteration.
+
+for (int i = 1; i <= 5; i++) {
+    if (i == 3) continue;
+    System.out.println(i);
+}
+
+
+## 🔹 Quick Comparison Table
+
+| Feature                  | Conditional Statements | Loops                |
+| ------------------------ | ---------------------- | -------------------- |
+| Purpose                  | Decision making        | Repetition           |
+| Examples                 | if, else, switch       | for, while, do-while |
+| Executes multiple times? | ❌ No                   | ✅ Yes                |
+
+
+
